@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PCA Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1> PCA Results - Lifestyle Pattern Analysis</h1>
+
+        <div class="stats">
+            <h3>Explained Variance Ratio:</h3>
+            <p>PC1: {{ explained_var[0]|round(4) }}</p>
+            <p>PC2: {{ explained_var[1]|round(4) }}</p>
+        </div>
+
+        <div class="pca-image">
+            <h3>PCA 2D Scatter Plot</h3>
+            <img src="{{ url_for('static', filename='pca_plot.png') }}" alt="PCA Plot">
+        </div>
+
+        <a href="/" class="btn"> Upload Another File</a>
+    </div>
+</body>
+</html>
