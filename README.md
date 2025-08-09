@@ -8,11 +8,11 @@ This project applies **Principal Component Analysis (PCA)** to survey data colle
 
 ### To analyze lifestyle and mental health survey data using PCA to:
 
- - **Identify principal components affecting wellness**
+ - Identify principal components affecting wellness
 
- - **Reduce dimensions while retaining maximum variance**
+ - Reduce dimensions while retaining maximum variance
 
- - **Visualize lifestyle patterns via 2D PCA scatter plots**
+ - Visualize lifestyle patterns via 2D PCA scatter plots
 
 ## Input
 
@@ -87,35 +87,41 @@ PC2: 0.29
 
 ## Use Cases
 
- **College wellness program analysis**
+ College wellness program analysis
 
- **Behavioral segmentation**
+ Behavioral segmentation
 
- **Lifestyle impact studies**
+ Lifestyle impact studies
 
- **Dimensionality reduction for further ML tasks**
+ Dimensionality reduction for further ML tasks
 
 ## Limitations
 
- **Assumes numeric input fields**
+ Assumes numeric input fields
 
- **Designed for offline usage only (local app)**
+ Designed for offline usage only (local app)
 
- **Only supports 2 principal components visualization**
+ Only supports 2 principal components visualization
 
 ## Future Enhancements
 
- **Add scree plot and feature loadings**
+ Add scree plot and feature loadings
 
- **Export PCA results to Excel**
+ Export PCA results to Excel
 
- **Cluster segments after PCA using KMeans**
+ Cluster segments after PCA using KMeans
 
  ## Screenshots
 
+ ## Input
+
  ![input](screenshots/input.png)
 
+ ## Load Data
+
  ![load](screenshots/load.png)
+
+ ## Output
  
  ![output](screenshots/output.png)
 
