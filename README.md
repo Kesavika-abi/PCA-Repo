@@ -87,29 +87,29 @@ PC2: 0.29
 
 ## Use Cases
 
- College wellness program analysis
+  - College wellness program analysis
 
- Behavioral segmentation
+  - Behavioral segmentation
 
- Lifestyle impact studies
+  - Lifestyle impact studies
 
- Dimensionality reduction for further ML tasks
+  - Dimensionality reduction for further ML tasks
 
 ## Limitations
 
- Assumes numeric input fields
+  - Assumes numeric input fields
 
- Designed for offline usage only (local app)
+  - Designed for offline usage only (local app)
 
- Only supports 2 principal components visualization
+  - Only supports 2 principal components visualization
 
 ## Future Enhancements
 
- Add scree plot and feature loadings
+  - Add scree plot and feature loadings
 
- Export PCA results to Excel
+  - Export PCA results to Excel
 
- Cluster segments after PCA using KMeans
+  - Cluster segments after PCA using KMeans
 
  ## Screenshots
 
